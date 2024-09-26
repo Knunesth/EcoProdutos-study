@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;  
+ }
+ 
+ .menu{
+     text-decoration: 0;
+     display: flex;
+     background-color: rgb(129, 182, 6); 
+     justify-content: space-between;
+     margin-right: auto;
+     font-size: larger; 
+ }
+ 
+ .menu a{
+     color: rgb(3, 85, 17);
+     
+ }
+ 
+ .menu a:hover{
+     color: rgb(72, 255, 0);
+ }
+ 
+ .menu ul{
+     list-style: none;
+     display: flex;
+     margin-right: auto; 
+     margin-right: 20px;
+ 
+     
+ }
+ 
+ .menu li{
+     justify-content: space-between;
+     padding-right: 30px;
+     margin-top: 25px;
+     text-decoration: none;
+     
+ 
+ }
+ 
+ 
+ .ecoimg{
+     width: 50px;
+     height: 50px;
+     margin: 10px;
+ }
+ 
+ body{
+     background: url('../imgs/background-img/background.jpg') no-repeat center center fixed; 
+     background-size: cover;
+       
+ }
+
+ .servicos{
+    background: rgba(63, 97, 1, 0.514);
+    color: hsl(0, 0%, 100%);
+    display: grid;
+    border-radius: 20px;
+    margin: 200px 550px;
+    padding: 20px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+}
+
+.servicos h1{
+    margin: 10px 80px;
+    background: hsl(104, 15%, 30%);
+    border-radius: 30px;
+
+}
+
+ footer{
+    margin-top: 255px;
+    padding-top: 20px;
+    text-align: center;
+    background-color: rgb(129, 182, 6);   
+}
+
+footer p{
+    padding-bottom: 20px;
+}
